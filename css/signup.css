@@ -1,0 +1,174 @@
+.body{
+background-color: aliceblue;
+}
+.main-container{
+    background-color: aliceblue;
+    height: auto;
+}
+.header-navbar{
+    margin-bottom: -50px;
+    display: flex;
+}
+
+#site-logo{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    background-color: aliceblue;
+}
+
+.site-logo a:hover{
+    text-decoration: none;
+}
+.list{
+    font-family: 'Concert One', cursive;
+    height: 130px;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 5px;
+    list-style-type: none;
+    margin-left: -1px;
+}
+.list li{
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+}
+.list li a:hover{
+    background-color: aliceblue;
+    text-decoration: none;
+}
+.search-area{
+    border-radius: 5px;
+}
+.subcontent{
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.login{
+    color:black;
+    font-size: 10px;
+    margin-left: 470px;
+    display: flex;
+    align-content: center;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    border-radius: 2px 2px 5px 5px;
+    padding: 40px 20px 20px 20px;
+    width: 400px;
+    background: #ffffff;
+    padding-bottom: 70px;
+    padding-top: 40px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+}
+
+.input-area
+{
+    border-radius: 5px;
+}
+.submit-button{
+    border-radius: 5px;
+    color: inherit;   
+}
+.submit-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.submit-button{
+    background-color: #ffffff; 
+    padding: 5px;
+}
+.submit-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.submit-button:hover span {
+    
+  padding-right: 25px;
+}
+
+.submit-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+table { 
+    border-collapse: collapse; 
+    color:#337ab7;
+} 
+th, td{ 
+    font-family: 'Concert One', cursive;
+    color:#337ab7;
+    font-size: 20px;
+    width:150px; 
+    text-align:center; 
+    padding:15px;
+} 
+#fp{
+    color:black;
+    text-decoration: none;
+}
+#fp:hover{
+    color: #337ab7;
+}
+
+.footer{
+    display: flex;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.6s;
+    font-family: 'Concert One', cursive;
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding-left: 15px;
+    padding-top: 50px;
+    padding-right: 5px;
+    margin-top:50px;
+     margin-left: 15px;
+    width: 1318px;
+    margin-right: 3px;
+    height: 200px;
+
+}
+.fs-1{
+    align-content: center;
+    width: 500px;
+    font-size: 20px;
+
+}
+.fs-1 li{
+    list-style-type: none;
+    
+}
+.fs-1 li a{
+    text-decoration: none;
+}
+.rights{
+    color: #337ab7;
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 10px;
+     margin-left: 15px;
+    width: 1318px;
+    margin-right: 3px;
+    margin-top: 20px;
+    border: 2px solid black;
+    display: flex;
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.6s;
+    font-family: 'Concert One', cursive;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}
